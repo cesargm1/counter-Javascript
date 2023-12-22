@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(222, 204, 238);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#counter{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section{
+    display: flex;
+    gap: 16px;
+}
+button{
+    background-color: rgb(46, 42, 42);
+    color: white ;
+    padding: 16px;
+    font-size: 100;
+    font-weight: bold;
+    box-shadow: black 0px  10px 5px;
+    border-radius: 50px;
+}
+
