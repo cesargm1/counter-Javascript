@@ -1,17 +1,12 @@
+const increment = document.getElementById("incrementButton");
+const decrement = document.getElementById("decrementButton");
+let = numero = 0;
 
 function incrementar() {
-
-let numero = parseInt (document.getElementById("counter").textContent);
-
-while(numero < 0){
-    numero++
-    console.log(numero)
-}
-    counterValue.innerHTML = counter;
-
+	numero++;
+	counter.textContent = numero;
 }
 
-
-function decrementar() {
-    
-}
+function decrementar() {}
+numero--;
+counter.textContent = numero;
