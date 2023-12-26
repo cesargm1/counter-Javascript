@@ -1,5 +1,3 @@
-const increment = document.getElementById("incrementButton");
-const decrement = document.getElementById("decrementButton");
 let = numero = 0;
 
 function incrementar() {
@@ -8,10 +6,10 @@ function incrementar() {
 }
 
 function decrementar() {
+	if (numero === 0) {
+		return;
+	}
+
 	numero--;
 	counter.textContent = numero;
-}
-
-if (numero > 0) {
-	counter.textContent = 0 == numero;
 }
