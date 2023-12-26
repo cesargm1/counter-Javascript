@@ -7,6 +7,11 @@ function incrementar() {
 	counter.textContent = numero;
 }
 
-function decrementar() {}
-numero--;
-counter.textContent = numero;
+function decrementar() {
+	numero--;
+	counter.textContent = numero;
+}
+
+if (numero > 0) {
+	counter.textContent = 0 == numero;
+}
